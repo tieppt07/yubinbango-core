@@ -30,9 +30,7 @@ module YubinBango {
       }
     }
     chk7(val: string) {
-      if (val.length === 7) {
         return val;
-      }
     }
     selectAddr(youbin7: string, addr: string[]) {
       if (addr && addr[0] && addr[1]) {
